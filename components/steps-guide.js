@@ -41,10 +41,10 @@ App.component('steps-guide', {
         colorSelector(completed) {
             return (completed ? 'blue' : 'red');
         },
-        nextStep(index) {
+        nextStep() {
             this.currIndex += 1;
         },
-        prevStep(index) {
+        prevStep() {
             if (this.currIndex > 1) this.currIndex -= 1;
         },
         render() {
