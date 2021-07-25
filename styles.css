@@ -1,0 +1,16 @@
+.draggable {
+    touch-action: none;
+    user-select: none;
+    margin-right: 75%;
+    margin-left: 75%;
+}
+
+.drawing-canvas {
+  width: 75%;
+  height: 200px;
+  background: white;
+  border-style: groove;
+
+  user-select: none;
+  touch-action: none;
+}
