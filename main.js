@@ -7,6 +7,9 @@ window.MathJax = {
 const App = Vue.createApp({
     data() {
         return {
+            principles: [{ number: 1, desc: "Get $*x*$ all alone.", ctx: "Solving Equations" },
+            { number: 2, desc: "Opposites cancel out.", ctx: "Solving Equations" },
+            { number: 3, desc: "Whatever we do on one side, we do on the other.", ctx: "Solving Equations" }]
         }
     },
     methods: {}
